@@ -9,25 +9,20 @@ class Usuario {
     getFullName(){
         console.log(`El nombre de usuario es: ${this.nombre} ${this.apellido}`)
     }
-
     addMascotas(nombreMascota){
         this.mascotas.push(nombreMascota)
     }
-
     countMascotas(){
         console.log(this.mascotas.length)
     }
-
     addBook(nombre, autor){
         this.libros.push({nombre: nombre, autor: autor})
-
     }
-
     getBookNames() {
         for (let name of this.libros) {
-         console.log(name.nombre);
+        console.log(name.nombre);
         }
-     }
+    }
 }
 const nombre = "Roberto"
 const apellido = "Gomez Bolaños"
@@ -50,10 +45,3 @@ usuario.countMascotas()
 usuario.addBook("Libro_3", "Autor_3")
 console.log(libros)
 usuario.getBookNames()
-
-
-
-// console.log("***********************************************************************")
-
-
-
