@@ -19,8 +19,8 @@ class Usuario {
         this.libros.push({nombre: nombre, autor: autor})
     }
     getBookNames() {
-        for (let name of this.libros) {
-        console.log(name.nombre);
+        for (let nombreLibro of this.libros) {
+        console.log(nombreLibro.nombre);
         }
     }
 }
@@ -38,10 +38,13 @@ const mascotas = ["Perro", "Gato", "Conejo"]
 
 
 const usuario = new Usuario (nombre, apellido, libros, mascotas)
+console.log("*********** RESPUESTAS ****************")
 usuario.getFullName()
 usuario.addMascotas("pájaro")
-console.log(mascotas)
 usuario.countMascotas()
 usuario.addBook("Libro_3", "Autor_3")
-console.log(libros)
 usuario.getBookNames()
+
+console.log("*********** CONTROL ****************")
+console.log(mascotas)
+console.log(libros)
