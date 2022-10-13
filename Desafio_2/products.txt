@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Prod_1",
+    "price": 100,
+    "thumbnail": "https://unsplash.com/es/fotos/Uae7ouMw91A",
+    "id": 1
+  }
+]
