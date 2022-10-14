@@ -70,7 +70,7 @@ deleteAll() {
 
 const products = new Contenedor('products.txt')
 
-// Ejemplos
+// Llamados
 // products.save({ name: 'Prod_2', price: 200, thumbnail : "https://unsplash.com/es/fotos/Uae7ouMw91A" })
 // products.save({ name: 'Prod_3', price: 500, thumbnail : "https://unsplash.com/es/fotos/Uae7ouMw91A" })
 // products.getById(2)
