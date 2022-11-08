@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Prod_1",
+    "price": 100,
+    "thumbnail": "https://unsplash.com/es/fotos/Uae7ouMw91A",
+    "id": 1
+  },
+    {
+    "name": "Prod_2",
+    "price": 100,
+    "thumbnail": "https://unsplash.com/es/fotos/Uae7ouMw91A",
+    "id": 2
+  },
+    {
+    "name": "Prod_3",
+    "price": 100,
+    "thumbnail": "https://unsplash.com/es/fotos/Uae7ouMw91A",
+    "id": 3
+  },
+    {
+    "name": "Prod_4",
+    "price": 100,
+    "thumbnail": "https://unsplash.com/es/fotos/Uae7ouMw91A",
+    "id": 4
+  }
+]
